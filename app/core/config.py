@@ -23,8 +23,8 @@ def get_whisper_model():
 
     if use_cuda:
         device = "cuda"
-        compute_type = "float16"  # nhanh nhất cho GPU
-        print("🚀 Loading Whisper model on GPU (CUDA, float16)")
+        compute_type = "float32"  # nhanh nhất cho GPU
+        print("🚀 Loading Whisper model on GPU (CUDA, float32)")
     else:
         device = "cpu"
         compute_type = "int8"  # tối ưu cho CPU
