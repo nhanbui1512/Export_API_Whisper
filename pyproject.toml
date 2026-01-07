@@ -13,4 +13,6 @@ dependencies = [
     "pydub>=0.25.1",
     "python-multipart>=0.0.21",
     "uvicorn>=0.40.0",
+    "torch>=2.4.1",
+    "ctranslate2==4.4.0",
 ]
